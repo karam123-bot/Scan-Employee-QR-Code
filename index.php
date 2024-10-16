@@ -84,8 +84,8 @@ img {
         const code = jsQR(imageData.data, canvas.width, canvas.height);
 
         let employees = [
-            { id: '30115075635', name: 'Karam Mohammad', email: 'karammohd@gmail.com', photo: 'pic.jpg' },
-            { id: '31183377041', name: 'Shailesh K', email: 'Shailesh@unidesign.com', photo: 'pic2.png' },
+            { id: '30115075', name: 'Karam Mohammad', email: 'karammohd@gmail.com', photo: 'pic.jpg' },
+            { id: '31183377', name: 'Shailesh K', email: 'Shailesh@unidesign.com', photo: 'pic2.png' },
         ];
 
         if (code) {
